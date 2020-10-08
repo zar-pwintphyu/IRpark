@@ -1,1 +1,9 @@
-pipenv install
+pip install django
+
+pipinstall Pillow
+
+pip install stripe
+    
+pipenv shell
+
+python manage.py runserver
